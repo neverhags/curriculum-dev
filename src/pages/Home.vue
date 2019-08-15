@@ -1,16 +1,16 @@
 <template>
   <div class="full-width center-content">
-    <img src="static/img/logo.png">
-    <WelcomeMessage name="World" />
+    <CurriculumVitae name="World" />
+      <img style="float: right;" src="static/img/logo.png" width="100">
   </div>
 </template>
 
 <script>
-import WelcomeMessage from 'components/Home/WelcomeMessage'
+import CurriculumVitae from 'components/Home/CurriculumVitae'
 
 export default {
   components: {
-    WelcomeMessage
+    CurriculumVitae
   }
 }
 </script>

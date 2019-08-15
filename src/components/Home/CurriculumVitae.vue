@@ -1,5 +1,6 @@
 <template>
   <div>
+    <span><img src="https://www.3d-spartan.com/images/general/logo-256.png" alt="3D-Spartan" title="3D-Spartan"></span>
     <h1 class="c42" id="h.houhvypg736s"><span class="c33 c29"># </span><span class="c34 c29">H</span><span
             class="c29 c33">eilner A. </span><span class="c29 c34">G</span><span class="c2">arcia S.</span></h1>
     <p class="c10 c47"><span class="c21 c29 c35 c26">**Desarrollador Sr. FullStack**</span></p>
@@ -168,7 +169,7 @@ export default {
   props: {
     name: {
       type: String,
-      required: true
+      required: false
     }
   }
 }
